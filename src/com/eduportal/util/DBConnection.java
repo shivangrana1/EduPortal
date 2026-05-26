@@ -1,14 +1,12 @@
 package com.eduportal.util;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBConnection {
-
-    private static final String URL = "jdbc:mysql://localhost:3306/eduportal";
-    private static final String USER = "root";
-    private static final String PASS = "@Shivang2006"; // change this!
+    private static final String URL = "jdbc:mysql://bvgvj4kuhwhcgtacikbs-mysql.services.clever-cloud.com:3306/bvgvj4kuhwhcgtacikbs";
+    private static final String USER = "uwiziar4fnjbeptp";
+    private static final String PASS = "EjbCfOIzgZn9T903eWAq";
 
     public static Connection getConnection() throws SQLException {
         try {
