@@ -1,0 +1,12 @@
+# Compiled files
+*.class
+*.war
+
+# IDE files
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS files
+Thumbs.db
